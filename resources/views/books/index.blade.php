@@ -4,7 +4,7 @@
 @section('body')
 <h1>store books</h1>
 
-@foreach ( books as $book)
+@foreach ( $books as $book)
 <div class="card" style="width: 18rem;">
     <img src="{{$book->photo}}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -17,6 +17,6 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-
+ @endforeach
 @endsection
 
