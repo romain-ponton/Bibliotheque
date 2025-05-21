@@ -1,6 +1,6 @@
 
 
-# Instructions pour configurer le projet Laravel 11
+# Instructions pour configurer le projet Bibliothèque
 
 Ce guide vous aidera à configurer le projet Laravel 11 sur votre machine locale.
 
